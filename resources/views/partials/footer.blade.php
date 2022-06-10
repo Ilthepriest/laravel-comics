@@ -46,18 +46,20 @@
                 </div>
                 </div>
                 <img class="logo-footer" src="../img/dc-logo-bg.png" alt="">
-            </div>
+            </div>  
         </div>
         <div class="footer-bottom">
             <div class="container">
                 <button class="button-sign">Sign-up Now!</button>
                 <div class="icon-footer d-flex align-items-center">
                     <p class="color-text">Follow us</p>
-                    <img src="../img/footer-facebook.png" alt="">
-                    <img src="../img/footer-periscope.png" alt="">
-                    <img src="../img/footer-pinterest.png" alt="">
-                    <img src="../img/footer-twitter.png" alt="">
-                    <img src="../img/footer-youtube.png" alt="">
+                    <div>
+                        <img class="px-2" src="../img/footer-facebook.png" alt="">
+                        <img class="px-2" src="../img/footer-periscope.png" alt="">
+                        <img class="px-2" src="../img/footer-pinterest.png" alt="">
+                        <img class="px-2" src="../img/footer-twitter.png" alt="">
+                        <img class="px-2" src="../img/footer-youtube.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>

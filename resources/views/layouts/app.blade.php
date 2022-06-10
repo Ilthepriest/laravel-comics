@@ -17,9 +17,10 @@
         @include('partials.header')
 
         <main>
+        @include('partials.jumbo')
             @yield('content')
         
-            
+        @include('partials.informativa')
         </main>
 
         @include('partials.footer')

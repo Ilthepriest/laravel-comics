@@ -18,6 +18,16 @@ Route::get('/', function () {
     return view('home', compact('fumetti'));
 })->name('home');
 
+Route::get('/fumetto/{id}', function ($id) {
+    $fumetti = config('db.fumetti');
+    if($id >= 0 && is_numeric($id) && $id < count($fumetti)){
+        $fumetto = $fumetti[$id];
+        return view('fumetti.show', compact('fumetto'));
+    }else{
+        abort(404);
+    }
+})->name('fumetti.show');
+
 // Route::get('/chi_siamo', function () {
 //     return view('chi_siamo');
 // })->name('chi_siamo');

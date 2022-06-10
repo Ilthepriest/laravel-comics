@@ -10,16 +10,20 @@ body{
   }
 
 .cerca{
-  margin-left: 100px;
   border-bottom: 3px solid #0282F9;
-  padding-bottom: 0px;
+  border-top: 0px;
+  width: 200px;
+}
+
+.input-group-text {
+    background-color: white;
+ 
 }
 
 header{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     ul{
         display: flex;
         li{
@@ -27,11 +31,11 @@ header{
             padding: 0 10px;
             a{
                 text-decoration: none;
-                padding-bottom: 60px;
+                padding-bottom: 40px;
                 color: #4E565F;
                 font-weight: 600;
                 text-transform: uppercase;
-                &.active{
+                &.active, &:hover{
                     color: #0282F9;
                     border-bottom: 4px solid #0282F9;
                 }
@@ -160,3 +164,28 @@ header{
 }
 }
 
+
+.div_blue{
+    background-color: #0282F9;
+    height: 70px;
+}
+
+.fumetto{
+    position: absolute;
+    top: -330px;
+    left: 0;
+}
+
+.avaiable{
+    background-color: lightgreen;
+}
+
+.artisti, .scrittori{
+    font-size: 12px;
+    color: #0282F9;
+    font-weight: 600;
+}
+
+.main_bottom{
+    border-top: 1px solid black;
+}
